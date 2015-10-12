@@ -17,7 +17,6 @@ class Cow:
     @classmethod
     def say(cls, tosay):
         tmp = []
-        final = ''
         for line in cls.chunk_string(tosay, 40):
             tmp.append(line)
 
